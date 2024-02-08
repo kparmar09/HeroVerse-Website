@@ -1,0 +1,126 @@
+body {
+    background-image: url("./images/5448674.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+td,tr,th { 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+} 
+
+th,td { 
+    padding-left: 20px;
+    font-family: 'Orbit', sans-serif;
+} 
+
+h1,h2 {
+    font-family: 'Bangers', system-ui;
+}
+
+p {
+    font-family: 'Orbit', sans-serif;
+}
+
+.color-edit {
+    background-color: #e76f51;
+}
+
+.main-area {
+    display: flex;
+}
+
+.superhero-card {
+    margin: 40px 40px 40px 40px;
+    padding: 15px;
+    background-color: #e9c46a;
+    height: auto;
+    width: 50%;
+    border: #264653 solid 8px;
+    border-radius: 30px;
+    
+}
+
+.primary-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secondary-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.power-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.flex-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-img {
+    margin: 40px auto auto auto;
+    border-radius: 10px;
+    border: #264653 solid 10px;
+}
+
+.greet-box {
+    background-color: #e9c46a;
+    margin-top: 120px;
+    padding: 40px;
+    border-radius: 20px;
+    border: black solid 5px;   
+}
+
+.submit-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Orbit', sans-serif;
+    background-color: #d00000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.submit-btn:hover {
+    background-color: #dc2f02;
+    transform: scale(1.02); 
+}
+
+.name-input {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-size: 16px;
+    font-family: 'Orbit', sans-serif;
+    border: 1px gray solid;
+    transition: transform 0.3s ease;
+}
+.name-input:hover {
+    transform: scale(1.02); 
+}
+
+.website-title {
+    font-weight: 700;
+    font-family: 'Honk', system-ui;
+    font-size: 45px;
+    margin-left: 5px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.trademark {
+    font-family: 'chewy', system-ui;
+}
