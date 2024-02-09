@@ -1,6 +1,7 @@
 # HeroVerse-Website
 A simple website where you can get detailed information about your favourite superheroes by entering their name.  
 Uses the [SuperHero](https://superheroapi.com/index.html) API.
+You can either view the website on [HeroVerse.com](https://heroverse-com.onrender.com) or if the link doesn't respond then you can clone this repo and start the server locally.
 
 ## Server Setup
 ### Prerequisites
